@@ -46,7 +46,9 @@ return xeploai
 }
 
 
-
+function devA(){
+    this.kiemTraDevA=''
+}
 
 
 
