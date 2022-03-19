@@ -84,7 +84,16 @@ document.querySelector('#spanXepLoai').innerHTML = sinhVien.xeploaiSinhVien();
 
 
 
-
+function sinhVienabc(){
+    this.maSInhVien=''
+    this.tenSInhVien=''
+    this.loaiSInhVien=''
+    this.diemToan=''
+    this.diemVan=''
+    this.tinhDiemTrungBinh=function(){
+        console.log("Tính điểm trung bình");
+    }
+}
 
 
 
