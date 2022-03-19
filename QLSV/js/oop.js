@@ -82,7 +82,16 @@ document.querySelector('#spanXepLoai').innerHTML = sinhVien.xeploaiSinhVien();
 }
 
 
-
+function sinhVienabc(){
+    this.maSInhVien=''
+    this.tenSInhVien=''
+    this.loaiSInhVien=''
+    this.diemToan=''
+    this.diemVan=''
+   this.xeploai=function(){
+       console.log('devB xép loại!!');
+   }
+}
 
 
 
